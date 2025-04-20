@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Leakage Prevention Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        main {
+            padding-top: 80px; /* Add padding to prevent content from hiding under the header */
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <h1>Gas Leakage Prevention</h1>
+    </header>
+    <main>
+        <section class="project-details">
+            <h2>Project Overview</h2>
+            <p>This Arduino-based LPG gas leakage prevention system detects leaks using an MQ-6 gas sensor and automatically shuts off the gas supply by controlling a servo motor on the regulator. It also triggers buzzer and LED alerts for safety.</p>
+            <h3>Tech Used:</h3>
+            <ul>
+                <li>Arduino Uno</li>
+                <li>MQ-6 sensor</li>
+                <li>Servo Motor</li>
+                <li>Buzzer</li>
+            </ul>
+            <h3>Project Images:</h3>
+            <div class="project-images">
+                <img src="gas_project_1.jpg" alt="Gas Project Image 1" class="project-image">
+                <img src="gas_project_2.jpg" alt="Gas Project Image 2" class="project-image">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Parth Isekar. All Rights Reserved.</p>
+    </footer>
+    <script>
+        // Apply saved theme on page load
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+</body>
+</html>
